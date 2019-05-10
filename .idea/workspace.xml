@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e975db1-4a47-4781-8d8a-9ad8ea07c06d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/deadlock/DeadlockTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/deadlock/DeadlockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/DeleteSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/ListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyTwoLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyTwoLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/queue/MyQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/search/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/Mergesort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/stack/Mystack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/DateStructure/tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/BigXY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Cast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Cast10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/CircleRoute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Split.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Stock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/distance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ac/notice.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/castDemo/Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/castDemo/Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/BufferedDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/DelimiterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ExceptionThorw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ForEach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Genericity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/IDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/IMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/IMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/LambdaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageImp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Mytask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/SetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/StringFormatDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/TimerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/UpCast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/VariablePara.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/FactoryAdvance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/ReflexDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/iFruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/iMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/regexDemo/ManyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/regexDemo/SingleDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/regexDemo/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/ActionScope.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/ActionScopeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/ArrayAdress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/Format.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/CopyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/FileCopyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/FileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/MemoryDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/PrintDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/StreamDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/SystemInDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/test/ABTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/test/ThreadTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/test/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/Excutors$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/Excutors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/MyThread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/TestThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadSyn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/util/AB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datacharm/test/ABTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -171,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="181">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -454,7 +354,7 @@
       <workItem from="1556088992583" duration="8809000" />
       <workItem from="1557068000809" duration="2665000" />
       <workItem from="1557070678265" duration="187000" />
-      <workItem from="1557503311308" duration="274000" />
+      <workItem from="1557503311308" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1557070099590</created>
@@ -470,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557070796147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="demo">
+      <created>1557503617152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557503617152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118947000" />
+    <option name="totallyTimeSpent" value="119829000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -504,8 +411,8 @@
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.34512022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28186968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28186968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -739,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="181">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
