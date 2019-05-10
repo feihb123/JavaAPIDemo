@@ -1,7 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e975db1-4a47-4781-8d8a-9ad8ea07c06d" name="Default Changelist" comment="demo" />
+    <list default="true" id="7e975db1-4a47-4781-8d8a-9ad8ea07c06d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/deadlock/DeadlockTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/deadlock/DeadlockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/DeleteSolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyTwoLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/MyTwoLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/list/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/queue/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/Mergesort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/sort/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/stack/Mystack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DateStructure/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/BigXY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Cast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Cast10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/CircleRoute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Split.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/distance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ac/notice.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/castDemo/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/castDemo/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/BufferedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/DelimiterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ExceptionThorw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ForEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Genericity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/IDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/IMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/IMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/LambdaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/MessageImp2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Mytask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/SetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/StringFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/ThreadLocalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/TimerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/UpCast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/VariablePara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/demo/point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/FactoryAdvance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/ReflexDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/iFruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/reflexDemo/iMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/regexDemo/ManyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/regexDemo/SingleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/regexDemo/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/ActionScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/ActionScopeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/ArrayAdress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/special/Format.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/CopyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/FileCopyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/FileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/MemoryDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/PrintDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/StreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/streamDemo/SystemInDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/test/ABTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/test/ThreadTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/test/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/Excutors$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/Excutors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/MyThread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/TestThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/threadDemo/ThreadSyn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/xyz/huabb/util/AB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/datacharm/test/ABTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +115,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
@@ -21,17 +130,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/datacharm/threadDemo/Excutors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="486">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/datacharm/streamDemo/FileCopyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/ManyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/SingleDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-319">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/datacharm/streamDemo/FileCopyDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="324">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/ac/Test.java" />
         <option value="$PROJECT_DIR$/src/ac/Main.java" />
         <option value="$PROJECT_DIR$/src/com/datacharm/streamDemo/FileCopyDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java" />
       </list>
     </option>
   </component>
@@ -103,13 +248,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -123,7 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,13 +278,28 @@
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="datacharm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="datacharm" type="462c0819:PsiDirectoryNode" />
+              <item name="regexDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,13 +335,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="CircleRoute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ac.CircleRoute" />
+  <component name="RunManager" selected="Application.Capture">
+    <configuration name="Capture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datacharm.regexDemo.Capture" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.*" />
+          <option name="PATTERN" value="com.datacharm.regexDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +355,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mergesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateStructure.sort.Mergesort" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DateStructure.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,18 +404,17 @@
     <list>
       <item itemvalue="Application.Stock" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Mergesort" />
-      <item itemvalue="Application.CircleRoute" />
       <item itemvalue="Application.ReflexDemo" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Capture" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Capture" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Stock" />
         <item itemvalue="Application.ReflexDemo" />
-        <item itemvalue="Application.CircleRoute" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +453,8 @@
       <workItem from="1556078847224" duration="18000" />
       <workItem from="1556088992583" duration="8809000" />
       <workItem from="1557068000809" duration="2665000" />
+      <workItem from="1557070678265" duration="187000" />
+      <workItem from="1557503311308" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1557070099590</created>
@@ -322,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557070099591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="demo">
+      <created>1557070796147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557070796147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118486000" />
+    <option name="totallyTimeSpent" value="118947000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -341,22 +489,28 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34517425" />
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.34512022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28288543" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28186968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24787535" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.34512022" />
@@ -396,27 +550,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/datacharm/special/ActionScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/datacharm/test/ABTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/datacharm/demo/SetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JDK 8u_181/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -451,13 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/stack/Mystack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/stack/Mystack.java" />
     <entry file="jar://D:/JDK 8u_181/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -465,20 +592,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/BubbleSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/SelectSort.java" />
     <entry file="jar://D:/JDK 8u_181/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -486,20 +601,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/list/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/InsertSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/list/Solution.java" />
     <entry file="jar://D:/JDK 8u_181/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -508,41 +611,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/quick.java" />
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/queue/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Cast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/list/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/list/MyTwoLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/queue/MyQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/ac/Cast.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/tree/TreeNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/list/MyLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/list/MyTwoLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/threadDemo/ThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -551,13 +624,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DateStructure/deadlock/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/tree/BinaryTree.java" />
     <entry file="jar://D:/JDK 8u_181/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -579,13 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/search/BinarySearch.java" />
     <entry file="jar://D:/JDK 8u_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3942">
@@ -593,20 +654,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/Mergesort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/Mergesort.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/sort/QuickSort.java" />
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/reflexDemo/ReflexDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -614,20 +663,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Cast10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/distance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/Cast10.java" />
+    <entry file="file://$PROJECT_DIR$/src/ac/distance.java" />
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/demo/MapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -635,43 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateStructure/deadlock/DeadlockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Split.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/ac/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateStructure/deadlock/DeadlockTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ac/Split.java" />
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/castDemo/Father.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -679,20 +683,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/Stock.java" />
+    <entry file="file://$PROJECT_DIR$/src/ac/Search.java" />
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/castDemo/Son.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -700,59 +692,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/BigXY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/notice.text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="258" column="7" selection-start-line="258" selection-start-column="7" selection-end-line="258" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/ManyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/CircleRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/SingleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/datacharm/util/AB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/BigXY.java" />
+    <entry file="file://$PROJECT_DIR$/src/ac/notice.text" />
+    <entry file="file://$PROJECT_DIR$/src/ac/CircleRoute.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/datacharm/util/AB.java" />
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/threadDemo/Excutors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="486">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/datacharm/streamDemo/FileCopyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="1350">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/ManyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/SingleDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/datacharm/test/ABTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/datacharm/regexDemo/Capture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
