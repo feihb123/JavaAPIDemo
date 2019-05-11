@@ -8,7 +8,7 @@ public class Capture {
 
         String line = "[\"1234\"]";
         System.out.println(line);
-        String pattern = "(\\D*)?(\\d+)(.*)";
+        String pattern = "(\\D*)(\\d+)(.*)";
         // 创建 Pattern 对象
         Pattern r = Pattern.compile(pattern);
         // 创建 matcher 对象
