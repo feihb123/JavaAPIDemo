@@ -1,4 +1,4 @@
-package cn.datacharm.threadDemo;
+package cn.datacharm.threaddemo;
 class MyThread3 implements Runnable{
 	private  int ticket=10;//票数
 	@Override

@@ -14,5 +14,4 @@ public  interface TestA{
     static void show3(){
         System.out.println("TestA-show3()");
     }
-
 }

@@ -1,4 +1,4 @@
-package cn.datacharm.threadDemo;
+package cn.datacharm.threaddemo;
 
 class MyThread extends Thread{//单继承局限
 	String title;
