@@ -1,4 +1,4 @@
-package cn.datacharm.stream;
+package cn.datacharm.io;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

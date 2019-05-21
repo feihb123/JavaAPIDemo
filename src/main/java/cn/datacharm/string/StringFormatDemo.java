@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.string;
 
 public class StringFormatDemo {
 	public static void main(String[] args) {

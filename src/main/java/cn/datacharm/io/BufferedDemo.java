@@ -1,4 +1,4 @@
-package cn.datacharm.stream;
+package cn.datacharm.io;
 
 import java.io.BufferedReader;
 import java.io.File;
