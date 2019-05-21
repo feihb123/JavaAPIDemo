@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.collectionandmap;
 
 import java.util.ArrayList;
 import java.util.Enumeration;

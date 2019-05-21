@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.thread;
 class MessageDemo{
 	private String message;
 	public String getMessage() {

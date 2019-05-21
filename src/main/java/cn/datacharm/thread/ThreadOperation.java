@@ -1,4 +1,4 @@
-package cn.datacharm.threaddemo;
+package cn.datacharm.thread;
 
 
 class TestThread implements Runnable{

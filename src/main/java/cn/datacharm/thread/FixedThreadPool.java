@@ -1,4 +1,4 @@
-package cn.datacharm.threaddemo;
+package cn.datacharm.thread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

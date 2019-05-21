@@ -1,11 +1,9 @@
-package cn.datacharm.threaddemo;
+package cn.datacharm.thread;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * 手动创建线程池 （推荐）
@@ -16,10 +14,15 @@ public class ManualThreadPool {
         /**
          * 手动创建线程池
          */
-        // 创建线程工厂
+        // 创建线程工厂 com.google.guava包
         ThreadFactory threadFactory = new ThreadFactoryBuilder()
-                .setNameFormat("xxx-pool-%d")
+                .setNameFormat("demo-pool-%d")
                 .build();
+
+        //commons-lang3包
+        ScheduledExecutorService executorService = new ScheduledThreadPoolExecutor(1,
+                new BasicThreadFactory.Builder().namingPattern("example-schedule-pool-%d").daemon(true).build());
+
         // 创建通用线程池
         /**
          * 参数含义：

@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.collectionandmap;
 
 import java.util.HashMap;
 import java.util.Iterator;

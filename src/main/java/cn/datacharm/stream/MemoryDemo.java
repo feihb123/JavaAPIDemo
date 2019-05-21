@@ -1,4 +1,4 @@
-package cn.datacharm.streamDemo;
+package cn.datacharm.stream;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

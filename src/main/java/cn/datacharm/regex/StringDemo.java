@@ -1,4 +1,4 @@
-package cn.datacharm.regexDemo;
+package cn.datacharm.regex;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package cn.datacharm.regexDemo;
+package cn.datacharm.regex;
 
 public class ManyDemo {
 	public static void main(String[] args) {
