@@ -20,8 +20,14 @@ public class StringDemo {
 
 
 		String s = "123*** \t\n";
+		String sTrim = s.trim();
 		//trim去掉 unicode <= 32的字符 即unicode小于' '
-		System.out.println(s.trim());
+		System.out.println(sTrim);
+
+		//String和byte[]转换
+		byte[] bytes = sTrim.getBytes();
+
+		String bString = new String(bytes);
 	}
 
 }

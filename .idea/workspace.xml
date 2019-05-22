@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e975db1-4a47-4781-8d8a-9ad8ea07c06d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/ArrayListCast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SecurityList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringBuilderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/demo/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/demo/StringFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringFormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/BufferedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/BufferedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/DelimiterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/DelimiterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/FileCopyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/FileCopyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/MemoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/MemoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/PrintDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/PrintDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/SystemInDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/io/SystemInDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Father.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -38,15 +27,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/thread/ManualThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="34" />
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="891">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -72,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DateStructure/list/Solution.java" />
-        <option value="$PROJECT_DIR$/src/DateStructure/sort/quickSort.java" />
         <option value="$PROJECT_DIR$/src/DateStructure/list/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/DateStructure/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/DateStructure/sort/quick.java" />
@@ -116,13 +121,15 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/streamDemo/BufferedDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/stream/BufferedDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SecurityList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/ArrayListCast.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/demo/StringDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringBufferDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringBuilderDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/io/BufferedDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Father.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Son.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java" />
       </list>
     </option>
   </component>
@@ -204,7 +211,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="datacharm" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="collectionandmap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,13 +258,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MemoryDemo">
+  <component name="RunManager" selected="Application.Son">
     <configuration name="MemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.datacharm.io.MemoryDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.datacharm.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.castDemo.Son" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.datacharm.castDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,33 +324,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.string.StringFormatDemo" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.datacharm.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.StringDemo" />
-      <item itemvalue="Application.StringFormatDemo" />
       <item itemvalue="Application.StringBufferDemo" />
       <item itemvalue="Application.StringBuilderDemo" />
       <item itemvalue="Application.MemoryDemo" />
+      <item itemvalue="Application.Son" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Son" />
         <item itemvalue="Application.MemoryDemo" />
         <item itemvalue="Application.StringBuilderDemo" />
         <item itemvalue="Application.StringBufferDemo" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.StringFormatDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +384,10 @@
       <workItem from="1558089746878" duration="1937000" />
       <workItem from="1558365103900" duration="3457000" />
       <workItem from="1558397613009" duration="928000" />
-      <workItem from="1558435077838" duration="4033000" />
+      <workItem from="1558435077838" duration="5839000" />
+      <workItem from="1558494092485" duration="916000" />
+      <workItem from="1558495743868" duration="397000" />
+      <workItem from="1558498758497" duration="1249000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1557070099590</created>
@@ -456,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558398515362</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="demo">
+      <created>1558439224261</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558439224261</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132930000" />
+    <option name="totallyTimeSpent" value="137298000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -475,7 +492,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +503,7 @@
       <window_info id="Alibaba Cloud Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.34512022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28186968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -575,15 +592,7 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ac/Stock.java" />
     <entry file="file://$PROJECT_DIR$/src/ac/Search.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ac/BigXY.java" />
     <entry file="file://$PROJECT_DIR$/src/ac/notice.text" />
     <entry file="file://$PROJECT_DIR$/src/ac/CircleRoute.java" />
@@ -790,43 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/ArrayListCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SecurityList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="25" selection-start-line="13" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringBuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -906,13 +878,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/thread/ManualThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Son.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="316">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/castDemo/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/ArrayListCast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/thread/ManualThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/string/StringDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SecurityList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="25" selection-start-line="13" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/SortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
