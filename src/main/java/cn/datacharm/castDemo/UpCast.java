@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.castDemo;
 class Animal{
 	public void eat(){
 		System.out.println("Anmal eat..");

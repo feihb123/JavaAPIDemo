@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.Genericity;
 class message<T>{//泛型类
 	private T msg;
 

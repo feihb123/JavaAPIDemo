@@ -1,4 +1,4 @@
-package cn.datacharm.demo;
+package cn.datacharm.Lambda;
 @FunctionalInterface
 interface IDemo{
 	public void print();
