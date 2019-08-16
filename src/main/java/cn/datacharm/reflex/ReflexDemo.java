@@ -3,6 +3,13 @@ package cn.datacharm.reflex;
 import java.util.Date;
 
 public class ReflexDemo {
+	/**
+	 * 获取class的三种方式
+	 * 1.对象.getClass()
+	 * 2.类名.class
+	 * 3.Class.forName("路径名")
+	 */
+
 	public static void main(String[] args) throws Exception {
 		Class<?> cls=new Date().getClass();
 		System.out.println(cls);
@@ -12,7 +19,7 @@ public class ReflexDemo {
 		
 		Class<?> cls3=Class.forName("java.util.Date");
 		System.out.println(cls3.getName());
-		
+
 		//反射实例化对象
 		Object obj=cls.newInstance();
 		System.out.println(obj);
