@@ -20,7 +20,8 @@ public class HashEqualDemo {
         System.out.println(stu1.hashCode() == stu2.hashCode());
         System.out.println(stu1.equals(stu2));
 
-        Map<Stu,Integer> map = new HashMap<>();
+        Map<Stu,Integer> map  = new HashMap<>(8);
+        System.out.println("----contractor init----");
         // stu1 stu2 hash值相同 但equals不同 使用HashMap使用链表处理
         map.put(stu1,1);
         map.put(stu2,2);

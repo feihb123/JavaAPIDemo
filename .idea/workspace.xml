@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f0cffb-ce4b-436f-98f1-312081365646" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/leetcode/DeletionSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/leetcode/DistributingBiscuits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/leetcode/LastStone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/HashEqualDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/HashEqualDemo.java" afterDir="false" />
     </list>
@@ -10,6 +14,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,9 +66,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="HashEqualDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.collectionandmap.HashEqualDemo" />
+  <component name="RunManager" selected="Application.LastStone">
+    <configuration name="DeletionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.leetcode.DeletionSequence" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.datacharm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistributingBiscuits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.leetcode.DistributingBiscuits" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.datacharm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastStone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.leetcode.LastStone" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.datacharm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.collectionandmap.MyHashMap" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -62,9 +119,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DistributingBiscuits.findContentChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.datacharm.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.datacharm.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.leetcode.DistributingBiscuits" />
+      <option name="METHOD_NAME" value="findContentChildren" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashEqualDemo" />
+        <item itemvalue="Application.LastStone" />
+        <item itemvalue="Application.DeletionSequence" />
+        <item itemvalue="Application.DistributingBiscuits" />
+        <item itemvalue="JUnit.DistributingBiscuits.findContentChildren" />
+        <item itemvalue="Application.MyHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -79,8 +156,18 @@
       <option name="presentableId" value="Default" />
       <updated>1568253154984</updated>
       <workItem from="1568253158791" duration="7847000" />
-      <workItem from="1568630424350" duration="7211000" />
+      <workItem from="1568630424350" duration="7399000" />
+      <workItem from="1568681222319" duration="15656000" />
+      <workItem from="1568789034794" duration="6683000" />
     </task>
+    <task id="LOCAL-00001" summary="hashcode &amp;&amp; equals">
+      <created>1568651686188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568651686188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,18 +186,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hashcode &amp;&amp; equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashcode &amp;&amp; equals" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/HashEqualDemo.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/HashEqualDemo.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
+          <line>25</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
