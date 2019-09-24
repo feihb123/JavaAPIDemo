@@ -1,4 +1,4 @@
-package cn.datacharm.concurrent;
+package cn.datacharm.concurrent.collection;
 
 import java.util.concurrent.ConcurrentNavigableMap;
 import java.util.concurrent.ConcurrentSkipListMap;

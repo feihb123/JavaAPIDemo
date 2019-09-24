@@ -29,7 +29,7 @@ public class SelectorServer {
         while (true) {
             //进行选择
             selector.select();
-            //获取这次选择出来的事件类型
+            // 获取当前选择器中所有注册的选择键（“已经准备就绪的操作”）
             Set<SelectionKey> keys = selector.selectedKeys();
             Iterator<SelectionKey> it = keys.iterator();
             while (it.hasNext()) {
