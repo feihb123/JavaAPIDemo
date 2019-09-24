@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f0cffb-ce4b-436f-98f1-312081365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/executorservice/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/LinkedBlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/test/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/NavigableMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/NavigableMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/executorservice/ExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/executorservice/ExecutorServiceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/pool/ForkJoinPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/executorservice/ForkJoinPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/nio/SelectorServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/nio/SelectorServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/test/ThreadTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +166,7 @@
       <workItem from="1569112907793" duration="8458000" />
       <workItem from="1569161944822" duration="75000" />
       <workItem from="1569235280030" duration="4273000" />
-      <workItem from="1569239590398" duration="11586000" />
+      <workItem from="1569239590398" duration="14146000" />
     </task>
     <task id="LOCAL-00001" summary="hashcode &amp;&amp; equals">
       <created>1568651686188</created>
@@ -213,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569162001008</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="concurrent">
+      <created>1569327860442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569327860442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +235,8 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="nio" />
     <MESSAGE value="lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="lock" />
+    <MESSAGE value="concurrent" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
