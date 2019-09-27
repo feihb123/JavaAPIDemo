@@ -1,6 +1,7 @@
 package cn.datacharm.concurrent.lock;
 
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * description:
@@ -9,30 +10,32 @@ import java.util.concurrent.CountDownLatch;
  * @date 2019/09/22
  */
 public class AtomicDemo {
-    //TODO
-    static int i = 0;
+
 
     public static void main(String[] args) throws InterruptedException {
-        CountDownLatch countDownLatch = new CountDownLatch(2);
-        new Thread(new Add(countDownLatch)).start();
-        new Thread(new Add(countDownLatch)).start();
-        countDownLatch.await();
-        System.out.println(i);
+        AtomicInteger count = new AtomicInteger(0);
+        Thread thread = new Thread(new Add(count));
+        Thread thread1 = new Thread(new Add(count));
+        thread.start();
+        thread1.start();
+        thread.join();
+        thread1.join();
+        System.out.println(count);
     }
 
     static class Add implements Runnable {
-        private CountDownLatch countDownLatch;
+        private  AtomicInteger count;
 
-        public Add(CountDownLatch countDownLatch) {
-            this.countDownLatch = countDownLatch;
+        public Add( AtomicInteger count) {
+            this.count = count;
         }
 
         @Override
         public void run() {
             for (int j = 0; j < 10000; j++) {
-                AtomicDemo.i ++;
+                count.incrementAndGet();
             }
-            countDownLatch.countDown();
+
         }
     }
 }

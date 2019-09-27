@@ -11,13 +11,12 @@ import java.util.concurrent.CyclicBarrier;
  */
 public class CyclicBarrierDemo {
     public static void main(String[] args) {
-        CyclicBarrier cyclicBarrier = new CyclicBarrier(6);
-        new Thread(new Runner(cyclicBarrier), "1号").start();
-        new Thread(new Runner(cyclicBarrier), "2号").start();
-        new Thread(new Runner(cyclicBarrier), "3号").start();
-        new Thread(new Runner(cyclicBarrier), "4号").start();
-        new Thread(new Runner(cyclicBarrier), "5号").start();
-        new Thread(new Runner(cyclicBarrier), "6号").start();
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(5);
+        new Thread(new Runner(cyclicBarrier), "1号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "2号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "3号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "4号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "5号运动员").start();
     }
 
     static class Runner implements Runnable {
@@ -36,7 +35,7 @@ public class CyclicBarrierDemo {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            System.out.println(name + "拜拜！");
+            System.out.println(name + "起跑！");
         }
 
     }

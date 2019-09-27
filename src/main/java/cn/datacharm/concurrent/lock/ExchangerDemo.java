@@ -25,7 +25,7 @@ public class ExchangerDemo {
 
         @Override
         public void run() {
-            String info = "Producer!";
+            String info = "Hello from producer";
 
             try {
                 String msg = exchanger.exchange(info);
@@ -46,7 +46,7 @@ public class ExchangerDemo {
 
         @Override
         public void run() {
-            String info = "Consumer!";
+            String info = "Hello from Consumer";
 
             try {
                 String msg = exchanger.exchange(info);

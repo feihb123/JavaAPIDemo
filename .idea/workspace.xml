@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f0cffb-ce4b-436f-98f1-312081365646" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/WaitAndNotifyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/AtomicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/AtomicDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ExchangerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ExchangerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/LockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +57,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\IDEAWorkplace\JavaAPIDemo\src\main\java\cn\datacharm\concurrent" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,13 +76,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentHashMapDemo">
-    <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.collection.ConcurrentHashMapDemo" />
+  <component name="RunManager" selected="Application.SemaphoreDemo">
+    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.AtomicDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.collection.*" />
+          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.executorservice.ExecutorServiceDemo" />
+    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.ConditionDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.executorservice.*" />
+          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,61 +103,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceDemo.manual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExchangerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.ExchangerDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.executorservice.*" />
+          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.datacharm.concurrent.executorservice" />
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.executorservice.ExecutorServiceDemo" />
-      <option name="METHOD_NAME" value="manual" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDemo.cachedThreadPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.SemaphoreDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.executorservice.*" />
+          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.datacharm.concurrent.executorservice" />
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.executorservice.ThreadPoolDemo" />
-      <option name="METHOD_NAME" value="cachedThreadPool" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDemo.scheduledThreadPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitAndNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.WaitAndNotifyDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.executorservice.*" />
+          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.datacharm.concurrent.executorservice" />
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.executorservice.ThreadPoolDemo" />
-      <option name="METHOD_NAME" value="scheduledThreadPool" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrentHashMapDemo" />
-        <item itemvalue="JUnit.ThreadPoolDemo.cachedThreadPool" />
-        <item itemvalue="Application.ExecutorServiceDemo" />
-        <item itemvalue="JUnit.ExecutorServiceDemo.manual" />
-        <item itemvalue="JUnit.ThreadPoolDemo.scheduledThreadPool" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.ExchangerDemo" />
+        <item itemvalue="Application.AtomicDemo" />
+        <item itemvalue="Application.WaitAndNotifyDemo" />
+        <item itemvalue="Application.ConditionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +171,10 @@
       <workItem from="1569112907793" duration="8458000" />
       <workItem from="1569161944822" duration="75000" />
       <workItem from="1569235280030" duration="4273000" />
-      <workItem from="1569239590398" duration="14146000" />
+      <workItem from="1569239590398" duration="14391000" />
+      <workItem from="1569372069441" duration="98000" />
+      <workItem from="1569372254057" duration="18740000" />
+      <workItem from="1569487995277" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="hashcode &amp;&amp; equals">
       <created>1568651686188</created>
@@ -210,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569327860442</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="concurrent">
+      <created>1569340063988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569340063988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
