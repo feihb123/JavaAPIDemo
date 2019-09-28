@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f0cffb-ce4b-436f-98f1-312081365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ConditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/WaitAndNotifyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/AtomicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/AtomicDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ExchangerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ExchangerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/LockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/lock/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/concurrent包.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/concurrent包.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +42,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -174,7 +169,9 @@
       <workItem from="1569239590398" duration="14391000" />
       <workItem from="1569372069441" duration="98000" />
       <workItem from="1569372254057" duration="18740000" />
-      <workItem from="1569487995277" duration="3965000" />
+      <workItem from="1569487995277" duration="4000000" />
+      <workItem from="1569554969560" duration="27000" />
+      <workItem from="1569684332040" duration="1024000" />
     </task>
     <task id="LOCAL-00001" summary="hashcode &amp;&amp; equals">
       <created>1568651686188</created>
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569340063988</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="concurrent lock">
+      <created>1569554959212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569554959212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,13 +249,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hashcode &amp;&amp; equals" />
     <MESSAGE value="MyHashMap" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="nio" />
     <MESSAGE value="lock" />
     <MESSAGE value="concurrent" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrent" />
+    <MESSAGE value="concurrent lock" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent lock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

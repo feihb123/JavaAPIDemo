@@ -67,13 +67,11 @@
    SynchronousQueue<String> queue = new SynchronousQueue<>();
    ```
 
-   - **SynchronousQueue没有容量，会直接将任务交给消费者，必须等队列中的添加元素被消费后才能继续添加新的元素。**
+   - **SynchronousQueue容量为1，会直接将任务交给消费者，必须等队列中的添加元素被消费后才能继续添加新的元素。**
    - **如果该队列已有一个元素，则试图向队列中新添一个新元素的线程将会阻塞，直到另一个线程将该元素从队列中抽走**。
    - **如果该队列为空，则试图从队列中抽取一个元素的线程将会阻塞，直到另一个线程向队列中添加了一个新的元素**
 
 ### 二、ConcurrentMap
-
-​    ConcurrentHashMap从JDK1.5开始随java.util.concurrent包一起引入JDK中，主要为了解决HashMap线程不安全和Hashtable效率不高的问题。众所周知，HashMap在多线程编程中是线程不安全的，而Hashtable由于使用了synchronized修饰方法而导致执行效率不高；因此，在concurrent包中，实现了ConcurrentHashMap以使在多线程编程中可以使用一个高性能的线程安全HashMap方案。
 
 1. **ConcurrentMap新增方法**
 
@@ -93,7 +91,17 @@ replace(K,V)：与上面的replace不同的是，此replace不会对Map中原有
 
 2. **ConcurrentHashMap**
 
+​    **多线程环境下，使用Hashmap进行put操作会引起死循环，导致CPU利用率接近100%。**
 
+​    ConcurrentHashMap从JDK1.5开始随java.util.concurrent包一起引入JDK中，主要为了解决HashMap线程不安全和Hashtable效率不高的问题。众所周知，HashMap在多线程编程中是线程不安全的，而Hashtable由于使用了synchronized修饰方法而导致执行效率不高；**因此，在concurrent包中，实现了ConcurrentHashMap以使在多线程编程中可以使用一个高性能的线程安全HashMap方案**。
+
+​	HashTable容器在竞争激烈的并发环境下表现出效率低下的原因，是因为所有访问HashTable的线程都必须竞争同一把锁，那假如容器里有多把锁，每一把锁用于锁容器其中一部分数据，那么当多线程访问容器里不同数据段的数据时，线程间就不会存在锁竞争，从而可以有效的提高并发访问效率，**这就是ConcurrentHashMap所使用的锁分段技术**，首先将数据分成一段一段的存储，然后给每一段数据配一把锁，当一个线程占用锁访问其中一个段数据的时候，其他段的数据也能被其他线程访问。有些方法需要跨段，比如size()和containsValue()，它们可能需要锁定整个表而而不仅仅是某个段，这需要按顺序锁定所有段，操作完毕后，又按顺序释放所有段的锁。这里“按顺序”是很重要的，否则极有可能出现死锁，在ConcurrentHashMap内部，段数组是final的，并且其成员变量实际上也是final的，但是，仅仅是将数组声明为final的并不保证数组成员也是final的，这需要实现上的保证。这可以确保不会出现死锁，因为获得锁的顺序是固定的。
+
+- **ConcurrentHashMap在JDK1.8改进(相对JDK1.7)**
+
+  - **将原先Segment数组和多个HashEntry数组（每一个Segment元素存储的是HashEntry数组+链表），改为Node数组+链表+红黑树的数据结构来实现，并发控制使用Synchronized和CAS来操作，整个看起来就像是优化过且线程安全的HashMap。**
+
+  > CAS（Compare And Swap，比较交换）：CAS有三个操作数，内存值V、预期值A、要修改的新值B，当且仅当A和V相等时才会将V修改为B，否则什么都不做。Java中CAS操作通过JNI本地方法实现，在JVM中程序会根据当前处理器的类型来决定是否为cmpxchg指令添加lock前缀。如果程序是在多处理器上运行，就为cmpxchg指令加上lock前缀（Lock Cmpxchg）；反之，如果程序是在单处理器上运行，就省略lock前缀。
 
 ### 三、ExecutorService
 
@@ -227,11 +235,172 @@ replace(K,V)：与上面的replace不同的是，此replace不会对Map中原有
    }
    ```
 
-   
+
+### 四、锁
+
+1. **ReentrantLock**
+
+​    ReentrantLock是一个**可重入**(如果某个线程试图获取一个已经由他自己持有的锁，这个请求可以成功，那么此时的锁就是可重入锁)且独占式的锁，它具有与使用synchronized监视器锁相同的基本行为和语义，但与synchronized关键字相比，它更灵活、更强大，增加了轮询、超时、中断等高级功能。ReentrantLock，顾名思义，它是支持可重入锁的锁，是一种递归无阻塞的同步机制。除此之外，该锁还支持获取锁时的公平和非公平选择。
+
+```java
+//默认参数false 非公平锁
+Lock lock = new ReentrantLock();
+//公平锁
+Lock lock = new ReentrantLock(true);
+```
+
+- 公平锁表示线程获取锁的顺序是按照 **线程加锁的顺序** 来分配的，即先来先得的 FIFO 先进先出顺序
+- 而非公平锁就是一种获取锁的抢占机制，是 **随机获得锁** 的，和公平锁不一样的就是先来的不一定先得到锁，这个方式可能造成某些线程一直拿不到锁，结果也就是不公平的了。
+
+```java
+lock()//上锁
+unlock()//解锁
+tryLock()//尝试获取锁，如果已经被lock，则立即返回false不会等待
+tryLock(5, TimeUnit.SECONDS)//尝试获取锁5s
+lockInterruptibly()//中断锁，不继续等待
+```
+
+- **Condition**
+  - 相比使用Object的wait()、notify()，使用Condition的await()、signal()这种方式实现线程间协作更加安全和高效。
+  - 调用Condition的await()和signal()方法，都必须在lock保护之内。
+
+​	  **Conditon中的await()对应Object的wait()，Condition中的signal()对应Object的notify()，Condition中的signalAll()对应Object的notifyAll()。wait()和notify()是和synchronized关键字配合使用的。**
+
+```java
+final Lock lock = new ReentrantLock();
+...
+try {
+      lock.lock();
+      System.out.println(Thread.currentThread().getName() + "我在等一个新信号");
+      condition.await();
+      System.out.println(Thread.currentThread().getName() + "拿到一个信号");
+   } catch (InterruptedException e) {
+       e.printStackTrace();
+   } finally{
+       lock.unlock();
+}
+```
+
+- synchronized与Lock的区别
+
+  - synchronized是java内置关键字，在jvm层面，Lock是个java类；
+
+  - synchronized无法判断是否获取锁的状态，Lock可以判断是否获取到锁；
+
+  - synchronized会自动释放锁(a 线程执行完同步代码会释放锁 ；b 线程执行过程中发生异常会释放锁)，Lock需在finally中手工释放锁（unlock()方法释放锁），否则容易造成线程死锁；
+
+  - 用synchronized关键字的两个线程1和线程2，如果当前线程1获得锁，线程2线程等待。如果线程1阻塞，线程2则会一直等待下去，而Lock锁就不一定会等待下去，如果尝试获取不到锁，线程可以不用一直等待就结束了；
+
+  - synchronized的锁可重入、不可中断、非公平，而Lock锁可重入、可判断、可公平（两者皆可）
+
+  - Lock锁适合大量同步的代码的同步问题，synchronized锁适合代码少量的同步问题。
+
+2. **CountDownLatch**
+
+- CountDownLatch 是一个同步工具类，**它允许一个或多个线程一直等待，直到其他线程执行完后再执行**。
+- CountDownLatch 是通过一个计数器来实现的，计数器的初始值为线程的数量。
+
+- 每当一个线程完成了自己的任务后，计数器的值就会减 1。
+- **当计数器值到达 0 时，表示所有的线程已经完成了任务，然后在闭锁上等待的线程就可以恢复执行任务。**
+
+```java
+//若不使用CountDownLatch，不能正确计算所有线程结束所用时间
+public class CountDownLatchDemo {
+    public static void main(String[] args){
+        CountDownLatch latch = new CountDownLatch(5);
+        LatchDemo latchDemo = new LatchDemo(latch);
+        long begin = System.currentTimeMillis();
+        for (int i = 0; i <5 ; i++) {
+            new Thread(latchDemo).start();
+        }
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("耗费时间："+(end-begin));
+
+    }
+
+    static class LatchDemo implements  Runnable {
+        private CountDownLatch latch;
+        
+        public LatchDemo(CountDownLatch latch) {
+            this.latch = latch;
+        }
+
+        public LatchDemo() {
+            super();
+        }
+
+        @Override
+        public void run() {
+            //当前对象唯一，使用当前对象加锁，避免多线程问题
+            synchronized (this) {
+                try {
+                    for (int i = 0; i < 50000; i++) {
+                        if (i % 2 == 0) {
+                            System.out.println(i);
+                        }
+                    }
+                } finally {
+                    //保证肯定执行
+                    latch.countDown();
+                }
+            }
+        }
+    }
+}
+```
+
+3. **CyclicBarrier**
+
+- CyclicBarrier作用就是会让所有线程都等待完成后才会继续下一步行动。
+
+> 以比赛跑步为例，所有运动员到达场地，才能开始比赛
+
+```JAVA
+public class CyclicBarrierDemo {
+    public static void main(String[] args) {
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(5);
+        new Thread(new Runner(cyclicBarrier), "1号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "2号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "3号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "4号运动员").start();
+        new Thread(new Runner(cyclicBarrier), "5号运动员").start();
+    }
+
+    static class Runner implements Runnable {
+        private CyclicBarrier cyclicBarrier;
+
+        public Runner(CyclicBarrier cyclicBarrier) {
+            this.cyclicBarrier = cyclicBarrier;
+        }
+
+        @Override
+        public void run() {
+            String name = Thread.currentThread().getName();
+            System.out.println(name + "到达！");
+            try {
+                cyclicBarrier.await();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println(name + "起跑！");
+        }
+
+    }
+}
+```
+
+
 
 ### 参考资料
 
 - https://www.cnblogs.com/aspirant/p/8657801.html
+- https://www.iteye.com/blog/sky-xin-2431255
+- https://blog.csdn.net/octopusflying/article/details/80634864
 
 
 
