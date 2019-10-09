@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f0cffb-ce4b-436f-98f1-312081365646" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/regex/RegexApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/collection/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/concurrent包.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/concurrent包.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/concurrent/queue/SynchronousQueueDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreDemo">
-    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.AtomicDemo" />
+  <component name="RunManager" selected="JUnit.RegexApplication.convert">
+    <configuration name="Capture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.Capture" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
+          <option name="PATTERN" value="cn.datacharm.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.ConditionDemo" />
+    <configuration name="ManyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.ManyDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
+          <option name="PATTERN" value="cn.datacharm.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,52 +96,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.ExchangerDemo" />
+    <configuration name="RegexApplication.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
+          <option name="PATTERN" value="cn.datacharm.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.datacharm.regex" />
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.RegexApplication" />
+      <option name="METHOD_NAME" value="convert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.SemaphoreDemo" />
+    <configuration name="RegexApplication.getString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
+          <option name="PATTERN" value="cn.datacharm.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.datacharm.regex" />
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.RegexApplication" />
+      <option name="METHOD_NAME" value="getString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.concurrent.lock.WaitAndNotifyDemo" />
+    <configuration name="RegexApplication.split" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.concurrent.lock.*" />
+          <option name="PATTERN" value="cn.datacharm.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="cn.datacharm.regex" />
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.RegexApplication" />
+      <option name="METHOD_NAME" value="split" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.ExchangerDemo" />
-        <item itemvalue="Application.AtomicDemo" />
-        <item itemvalue="Application.WaitAndNotifyDemo" />
-        <item itemvalue="Application.ConditionDemo" />
+        <item itemvalue="JUnit.RegexApplication.convert" />
+        <item itemvalue="JUnit.RegexApplication.getString" />
+        <item itemvalue="JUnit.RegexApplication.split" />
+        <item itemvalue="Application.Capture" />
+        <item itemvalue="Application.ManyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +178,9 @@
       <workItem from="1569372254057" duration="18740000" />
       <workItem from="1569487995277" duration="4000000" />
       <workItem from="1569554969560" duration="27000" />
-      <workItem from="1569684332040" duration="1024000" />
+      <workItem from="1569684332040" duration="1084000" />
+      <workItem from="1570586776012" duration="1222000" />
+      <workItem from="1570633223449" duration="2652000" />
     </task>
     <task id="LOCAL-00001" summary="hashcode &amp;&amp; equals">
       <created>1568651686188</created>
@@ -229,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569554959212</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="concurrent">
+      <created>1569685414832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569685414832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,9 +271,9 @@
     <MESSAGE value="leetcode" />
     <MESSAGE value="nio" />
     <MESSAGE value="lock" />
-    <MESSAGE value="concurrent" />
     <MESSAGE value="concurrent lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrent lock" />
+    <MESSAGE value="concurrent" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
