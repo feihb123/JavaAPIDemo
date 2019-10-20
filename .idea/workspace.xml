@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f0cffb-ce4b-436f-98f1-312081365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/regex/RegexApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/datacharm/collectionandmap/QueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,13 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegexApplication.convert">
-    <configuration name="Capture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.Capture" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.collectionandmap.QueueDemo" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.regex.*" />
+          <option name="PATTERN" value="cn.datacharm.collectionandmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.ManyDemo" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.datacharm.collectionandmap.Solution" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.datacharm.regex.*" />
+          <option name="PATTERN" value="cn.datacharm.collectionandmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexApplication.split" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegexApplication.increase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.datacharm.regex" />
       <option name="MAIN_CLASS_NAME" value="cn.datacharm.regex.RegexApplication" />
-      <option name="METHOD_NAME" value="split" />
+      <option name="METHOD_NAME" value="increase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.QueueDemo" />
+        <item itemvalue="JUnit.RegexApplication.increase" />
         <item itemvalue="JUnit.RegexApplication.convert" />
         <item itemvalue="JUnit.RegexApplication.getString" />
-        <item itemvalue="JUnit.RegexApplication.split" />
-        <item itemvalue="Application.Capture" />
-        <item itemvalue="Application.ManyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,9 @@
       <workItem from="1569554969560" duration="27000" />
       <workItem from="1569684332040" duration="1084000" />
       <workItem from="1570586776012" duration="1222000" />
-      <workItem from="1570633223449" duration="2652000" />
+      <workItem from="1570633223449" duration="2918000" />
+      <workItem from="1570688085266" duration="3127000" />
+      <workItem from="1571543217952" duration="2764000" />
     </task>
     <task id="LOCAL-00001" summary="hashcode &amp;&amp; equals">
       <created>1568651686188</created>
@@ -245,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569685414832</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="regex">
+      <created>1570636078520</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570636078520</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +282,8 @@
     <MESSAGE value="lock" />
     <MESSAGE value="concurrent lock" />
     <MESSAGE value="concurrent" />
-    <option name="LAST_COMMIT_MESSAGE" value="concurrent" />
+    <MESSAGE value="regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="regex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
